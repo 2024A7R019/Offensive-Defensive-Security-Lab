@@ -29,7 +29,9 @@ ping <Metasploitable-IP>
 Use Nmap to scan the Metasploitable machine and identify the open ports and services running on the target.
 
 # Commands used :
+```bash
 nmap <Metasploitable-IP>
+```
 
 The scan output can be used to understand the exposed services on the target.
 
