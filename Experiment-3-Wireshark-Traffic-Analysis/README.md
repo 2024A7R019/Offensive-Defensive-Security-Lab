@@ -25,7 +25,7 @@ Use ip a on Kali Linux to identify the active network interface, such as eth0. T
 # Commands:
 ```bash
 ip a
-nmap <Metasploitable-IP>
+nmap -sS -Pn <Metasploitable-IP>
 ```
 
 ![Step 2 Screenshot](images/step_2.jpg)
