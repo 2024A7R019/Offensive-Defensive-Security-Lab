@@ -34,7 +34,7 @@ nmap -sS -Pn <Metasploitable-IP>
 
 Launch Wireshark and select the eth0 interface. Apply a capture filter for the Metasploitable IP address and start capturing network traffic.
 
-# Capture Filter: host <Metasploitable-IP>
+#### Capture Filter: host (Metasploitable-IP)
 
 ![Step 3 Screenshot](images/step_3.jpg)
 
