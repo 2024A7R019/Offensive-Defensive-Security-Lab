@@ -12,7 +12,7 @@ This repository contains the laboratory work for **COM-512: Offensive and Defens
 1. [Experiment 1: Nmap & Nessus](Experiment-1-Nmap-Nessus/README.md)
 2. [Experiment 2: Metasploit](Experiment-2-Metasploit/README.md)
 3. [Experiment 3: Wireshark Traffic Analysis](Experiment-3-Wireshark-Traffic-Analysis/README.md)
-4. Experiment 4: Firewall & IDS Setup
+4. [Experiment 4: Firewall & IDS Setup](Experiment-4-Firewall-IDS-Setup/README.md)
 5. Experiment 5: Sniffing & Session Hijacking
 6. Experiment 6: OWASP ZAP
 7. Experiment 7: OSINT Recon
