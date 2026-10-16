@@ -13,7 +13,7 @@ This repository contains the laboratory work for **COM-512: Offensive and Defens
 2. [Experiment 2: Metasploit](Experiment-2-Metasploit/README.md)
 3. [Experiment 3: Wireshark Traffic Analysis](Experiment-3-Wireshark-Traffic-Analysis/README.md)
 4. [Experiment 4: Firewall & IDS Setup](Experiment-4-Firewall-IDS-Setup/README.md)
-5. Experiment 5: Sniffing & Session Hijacking
+5. [Experiment 5: Sniffing & Session Hijacking](Experiment-5-Sniffing-Session-Hijacking/README.md)
 6. Experiment 6: OWASP ZAP
 7. Experiment 7: OSINT Recon
 8. Experiment 8: MITRE ATT&CK Mapping
