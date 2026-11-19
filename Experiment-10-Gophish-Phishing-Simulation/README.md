@@ -1,6 +1,6 @@
 # Experiment 10: Phishing Simulation Using Gophish
 
-## 1. Aim / Objective
+## 1. Objective
 
 To understand how phishing campaigns are designed and executed by creating and running a simulated phishing attack using **Gophish** in a controlled laboratory environment.
 
