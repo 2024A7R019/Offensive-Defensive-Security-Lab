@@ -10,6 +10,8 @@ To understand how phishing campaigns are designed and executed by creating and r
 
 Update the Kali Linux package lists, install Gophish, and launch the application. The Gophish web interface becomes available locally for configuring the simulation.
 
+# Commands:
+
 ```bash
 sudo apt update
 sudo apt install gophish -y
